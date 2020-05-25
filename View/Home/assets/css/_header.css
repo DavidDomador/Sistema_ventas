@@ -1,0 +1,185 @@
+.header-default .logo-company {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: #f8f9fa;
+}
+.header-default .logo-company .icons {
+  display: none;
+}
+
+.header-default .logo-company .icons a {
+  color: #f1ce54;
+}
+.header-default .logo-company .icons a:first-of-type {
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+.header-default .logo-company .info-header {
+  font-size: 80%;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Logo */
+.header-default .wishlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+.header-default .wishlist .input-search-1 {
+  display: none;
+}
+.header-default .wishlist img {
+  width: 208px;
+  height: 65px;
+}
+.header-default .wishlist .input-search {
+  position: relative;
+  width: 80%;
+}
+.header-default .wishlist .input-search .fa-long-arrow-alt-right {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  font-size: 20px;
+  color: #91c3cb;
+  cursor: pointer;
+}
+
+.header-default .wishlist .icons-purchase {
+  display: block;
+  text-align: right;
+  font-size: 24px;
+}
+.header-default .wishlist .icons-purchase a {
+  cursor: pointer;
+  position: relative;
+  margin-right: 1rem;
+}
+.header-default .wishlist .icons-purchase a .fas {
+  color: #f1ce54;
+}
+.fa-shopping-cart {
+  position: relative;
+}
+
+.header-default .wishlist input {
+  width: 100%;
+  border: 0;
+  border: 1px solid #91c3cb;
+  border-radius: 1.2em;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+}
+.header-default .wishlist .span-cart {
+  display: none;
+}
+.input-search-2 {
+  width: 100% !important;
+}
+.input-search-2 input {
+  width: 90% !important;
+}
+
+.input-search-2 .fa-long-arrow-alt-right {
+  right: 45px !important;
+}
+.icon-hamburger {
+  cursor: pointer;
+  width: 30px;
+  margin-left: 1.5rem;
+}
+.icon-hamburger div {
+  width: 30px;
+  height: 4px;
+  background-color: #91c3cb;
+  margin: 3px 0;
+}
+
+.header-default .wishlist .icons-purchase .cart .circle {
+  color: white;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  background-color: #91c3cb;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  .header-default .wishlist {
+    padding: 0 4rem;
+  }
+  .header-default .logo-company {
+    grid-template-columns: 1fr 1.4fr;
+  }
+  .header-default .logo-company .icons {
+    padding-left: 4rem;
+    color: #f1ce54;
+    display: initial;
+  }
+  .header-default .logo-company .info-header {
+    text-align: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-search-2 {
+    display: none !important;
+  }
+  .icon-hamburger {
+    display: none;
+  }
+  .header-default .wishlist {
+    padding: 0 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .header-default .wishlist .icons-purchase {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    color: #343a40;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .header-default .wishlist .span-cart {
+    display: initial;
+  }
+  .header-default .logo-company .icons {
+    padding-left: 1rem;
+    color: #f1ce54;
+    display: initial;
+  }
+  .header-default .logo-company .info-header {
+    text-align: initial;
+  }
+  .header-default .wishlist .input-search {
+    display: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-default .logo-company .icons {
+    padding-left: 8rem;
+  }
+  .header-default .wishlist {
+    padding: 0 8rem;
+  }
+}

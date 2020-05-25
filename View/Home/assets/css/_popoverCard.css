@@ -1,0 +1,51 @@
+.popover__wrapper {
+  position: relative;
+  display: inline-block;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 0);
+  background-color: #ffffff;
+  padding: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: 250px;
+  right: 0px;
+}
+.popover__content .content-text {
+  text-align: left;
+}
+.popover__content .fas {
+  cursor: pointer;
+  color: red;
+}
+.popover__content .content-cart {
+  display: grid;
+  grid-template-columns: 1fr 3fr 0fr;
+  gap: 1rem;
+}
+.popover__content .content-cart img {
+  width: 60px;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+  text-align: center;
+}
+
+.button-purchase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.button-purchase a {
+  margin: 0 !important;
+  font-size: 13px;
+}

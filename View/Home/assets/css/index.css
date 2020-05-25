@@ -1,0 +1,9 @@
+@import "_gobal.css";
+@import "font-wesome.min.css";
+@import "_header.css";
+@import "_headerFixed.css";
+@import "_home.css";
+@import "_popoverCard.css";
+@import "_main.css";
+
+@import "_footer.css";

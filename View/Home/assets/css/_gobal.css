@@ -1,0 +1,10 @@
+body,
+html {
+  font-family: "Roboto Condensed", san-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  text-align: left;
+  margin: 0 !important;
+}
