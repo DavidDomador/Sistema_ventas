@@ -1,1 +1,2 @@
-# Sistema_ventas
+# Sistema_ventas Desarrollador en php y javascript 
+
